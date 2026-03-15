@@ -1,4 +1,4 @@
-# RoboDex (Protodex)
+# Protodex
 
 A comprehensive team management and inventory tracking system built for Team Genesis. Manage inventory, track issued items, organize projects, and integrate with GitHub and Notion — all in one place.
 
@@ -7,9 +7,9 @@ A comprehensive team management and inventory tracking system built for Team Gen
 ![Cloudflare Workers](https://img.shields.io/badge/Cloudflare-Workers-orange?logo=cloudflare)
 ![Supabase](https://img.shields.io/badge/Supabase-PostgreSQL-green?logo=supabase)
 
-## 🎯 What is RoboDex?
+## 🎯 What is Protodex?
 
-RoboDex is an inventory and project management system designed for robotics teams and makerspaces. It helps you:
+Protodex is an inventory and project management system designed for robotics teams and makerspaces. It helps you:
 
 - **Track Inventory**: Know exactly what parts you have, where they are, and what's available
 - **Manage Issues**: Issue items to projects, track who has what, handle returns
@@ -70,8 +70,8 @@ RoboDex is an inventory and project management system designed for robotics team
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/RoboDex.git
-cd RoboDex
+git clone https://github.com/your-username/Protodex.git
+cd Protodex
 ```
 
 ### 2. Set Up the Database
@@ -83,7 +83,7 @@ cd RoboDex
 ### 3. Set Up the Backend
 
 ```bash
-cd robodex-backend
+cd Protodex-backend
 
 # Install dependencies
 npm install
@@ -119,7 +119,7 @@ Visit `http://localhost:3000` and log in!
 ## 📁 Project Structure
 
 ```
-RoboDex/
+Protodex/
 ├── app/                    # Next.js frontend (App Router)
 │   ├── page.tsx           # Login page
 │   ├── layout.tsx         # Root layout with providers
@@ -135,7 +135,7 @@ RoboDex/
 │   ├── projects/          # Project management
 │   └── update-password/   # Password change
 │
-├── robodex-backend/       # Python Cloudflare Worker
+├── Protodex-backend/       # Python Cloudflare Worker
 │   ├── src/
 │   │   └── entry.py       # Main API logic
 │   ├── wrangler.jsonc     # Cloudflare config
@@ -174,7 +174,7 @@ RoboDex/
 | Document | Description |
 |----------|-------------|
 | [Frontend README](./app/README.md) | Frontend architecture and components |
-| [Backend README](./robodex-backend/README.md) | API endpoints and backend logic |
+| [Backend README](./Protodex-backend/README.md) | API endpoints and backend logic |
 | [API Reference](./docs/API.md) | Complete API documentation |
 | [Contributing Guide](./CONTRIBUTING.md) | How to contribute |
 | [Database Schema](./docs/DATABASE.md) | Database tables and functions |
@@ -198,7 +198,7 @@ GITHUB_TOKEN=ghp_...                       # (Optional) GitHub API token
 
 ## 🎨 Design System
 
-RoboDex uses a dark theme with purple accents:
+Protodex uses a dark theme with purple accents:
 
 | Element | Color |
 |---------|-------|
